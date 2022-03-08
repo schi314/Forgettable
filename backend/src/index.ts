@@ -20,3 +20,5 @@ app.use('/', routes);
 app.use(middleware.errorHandler);
 
 app.listen(port, () => logger.info(`App server listening on port ${port}!`));
+
+export default app;

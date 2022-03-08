@@ -1,0 +1,1 @@
+export const encounterService = require('./encounter.service');

@@ -23,7 +23,7 @@ export const createPerson = async (
 ): Promise<void> => {
   const { name, organisation } = req.body;
   try {
-    await createPersonService({ name, organisation });
+    // await createPersonService({ name, organisation });
     res.status(200).end();
   } catch (e) {
     next(e);
